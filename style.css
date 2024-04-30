@@ -21,6 +21,7 @@ body{
     align-items: center;
 }
 
+
 .card{
     display: flex;
     flex-direction: column;
@@ -32,6 +33,13 @@ body{
     border-radius:1rem;
     filter: drop-shadow(10px 10px 1px black);
     border:1px solid black;
+    transition: box-shadow .3s;
+
+}
+
+.card:hover{
+    box-shadow: 12px 13px 0px 1px #000;
+    
 }
 
 .auth{
